@@ -1,0 +1,8 @@
+create database BD_Hibernate;
+
+use BD_Hibernate;
+
+create table alumno(
+idAlumn int primary key,
+nombAlumn varchar(30)
+);

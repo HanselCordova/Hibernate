@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28/11/2019 10:22:53 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Model.Alumno" table="alumno" catalog="bd_hibernate" optimistic-lock="version">
+        <id name="idAlumn" type="int">
+            <column name="idAlumn" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombAlumn" type="string">
+            <column name="nombAlumn" length="30" />
+        </property>
+    </class>
+</hibernate-mapping>
